@@ -12,14 +12,21 @@
       <img src="img/anjing.jpg" alt="">
 
       <h4>Video Pemandangan</h4>
-      <h3>(Video Autoplay dan controls</h3>
+      <h3>Video Autoplay dan controls</h3>
 
       <video width="320" height="240" controls>
      <source  src="video/VID-20200816-WA0131.mp4" />
       </video>
+
+      <h3>Video Autoplay dan Fallback</h3>
       <video width="320" height="240" autoplay controls>
-        <source  src="video/VID-20200816-WA0131.mp4" />
-         </video>
+
+        <source src="video/VID-20200816-WA0131.mp4" type="video/mp4" />
+        <source src="video/VID-20200816-WA0131.mp4" type="video/ogg" />
+        <source src="video/VID-20200816-WA0131.mp4" type="video/webm" />
+      </video>
+
+        
      
       <h4>Audio</h4>
       <h3>(Autoplay dan controls</h3>
