@@ -38,21 +38,21 @@
 //console.log(kondisi1 || kondisi2);
 //console.log(!kondisi1);
 
-//let berat = prompt("Masukan Berat: ");
-//console.log("Berat yg dimasukan adalah " + berat);
-//let tinggi = prompt("Masukan Tinggi: ");
-//console.log("Tinggi yg dimasukan adalah " + tinggi);
+let berat = prompt("Masukan Berat: ");
+console.log("Berat yg dimasukan adalah " + berat);
+let tinggi = prompt("Masukan Tinggi: ");
+console.log("Tinggi yg dimasukan adalah " + tinggi);
 
-//let bilangan1 = berat;
-//let bilangan2 = tinggi;
+let bilangan1 = berat;
+let bilangan2 = tinggi;
 
-//console.log(bilangan1 / bilangan2 * bilangan2);
+console.log(bilangan1 / bilangan2 * bilangan2);
 
-let berat = prompt("Masukan berat badan anda = kg");
-let tinggi = prompt("Masukan tinggi badan anda = cm");
-let bni = berat / (tinggi * tinggi);
+//let berat = prompt("Masukan berat badan anda = kg");
+//let tinggi = prompt("Masukan tinggi badan anda = cm");
+//let bni = berat / (tinggi * tinggi);
 
-console.log("your BNI = " + bni);
+//console.log("your BNI = " + bni);
 
 //let angka = prompt("Masukan angka : ");
 //let berat
@@ -63,4 +63,4 @@ console.log("your BNI = " + bni);
 /*
 Buatlah program Javascript untuk menghitung BMI(Body Mass Index).
 Rumus = berat (kg) / (tinggi * tinggi)
-gunakan promt untuk meminta input user.
+gunakan promt untuk meminta input user.*/
