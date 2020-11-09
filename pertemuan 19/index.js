@@ -48,15 +48,15 @@ let bilangan2 = tinggi;
 
 console.log(bilangan1 / bilangan2 * bilangan2);
 
-//let berat = prompt("Masukan berat badan anda = kg");
-//let tinggi = prompt("Masukan tinggi badan anda = cm");
-//let bni = berat / (tinggi * tinggi);
+/*let berat = prompt("Masukan berat badan anda = kg");
+let tinggi = prompt("Masukan tinggi badan anda = cm");
+let bni = berat / (tinggi * tinggi);
 
-//console.log("your BNI = " + bni);
+console.log("your BNI = " + bni);
 
-//let angka = prompt("Masukan angka : ");
-//let berat
-//console.log("Angka yg di masukan adalah " + angka);
+let angka = prompt("Masukan angka : ");
+let berat
+console.log("Angka yg di masukan adalah " + angka);*/
 
 
 //exercise #7
