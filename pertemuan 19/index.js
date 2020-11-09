@@ -38,15 +38,15 @@
 //console.log(kondisi1 || kondisi2);
 //console.log(!kondisi1);
 
-/*let berat = prompt("Masukan Berat: ");
-console.log("Berat yg dimasukan adalah " + berat);
-let tinggi = prompt("Masukan Tinggi: ");
-console.log("Tinggi yg dimasukan adalah " + tinggi);
+//let berat = prompt("Masukan Berat: ");
+//console.log("Berat yg dimasukan adalah " + berat);
+//let tinggi = prompt("Masukan Tinggi: ");
+//console.log("Tinggi yg dimasukan adalah " + tinggi);
 
-let bilangan1 = berat;
-let bilangan2 = tinggi;
+//let bilangan1 = berat;
+//let bilangan2 = tinggi;
 
-console.log(bilangan1 / bilangan2 * bilangan2);*/
+//console.log(bilangan1 / bilangan2 * bilangan2);
 
 let berat = prompt("Masukan berat badan anda = kg");
 let tinggi = prompt("Masukan tinggi badan anda = cm");
