@@ -48,11 +48,11 @@
 
 //console.log(bilangan1 / bilangan2 * bilangan2);
 
-let berat = prompt("Masukan berat badan anda = kg");
+/*let berat = prompt("Masukan berat badan anda = kg");
 let tinggi = prompt("Masukan tinggi badan anda = cm");
-let bni = berat / (tinggi * tinggi);
+let bmi = berat / (tinggi * tinggi);
 
-console.log("your BNI = " + bni);
+console.log("your BMI = " + bmi);*/
 
 
 //exercise #7
@@ -60,3 +60,29 @@ console.log("your BNI = " + bni);
 Buatlah program Javascript untuk menghitung BMI(Body Mass Index).
 Rumus = berat (kg) / (tinggi * tinggi)
 gunakan promt untuk meminta input user.*/
+
+function bmiCalculator () {
+    let berat = prompt("Masukkan Berat Badan (kg) : ");
+    console.log("Berat badan yang dimasukkan adalah " + berat);
+    let tinggi = prompt("Masukkan Tinggi Badan (m) : ");
+    console.log("Tinggi badan yang anda masukkan adalah " + tinggi);
+    let hasil = berat / (tinggi * tinggi);
+    console.log("BMI = " + hasil);
+
+    if (hasil < 18.5) {
+        console.log ("Underweight");
+    } else if (hasil >= 18.5 && hasil < 24.9) {
+        console.log("Normal Range");
+    } else if (hasil >= 25.0 && hasil < 29.9) {
+        console.log("Overweight (preobese)");
+    } else if (hasil >= 30.0) {
+        console.log ("Obese");
+    } else if (hasil > 30.0 && hasil < 34.9) {
+        console.log ("Class I");
+    } else if (hasil > 35.0 && hasil < 39.9) {
+        console.log ("Class II");
+    } else if (hasil >= 40.00) {
+        console.log ("Class III");
+    }
+}
+bmiCalculator();
